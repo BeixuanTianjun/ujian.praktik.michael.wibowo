@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 3rem;
+    margin: 0 auto;
+    background-color: gray ;
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 500;
+    border-radius: 2rem;
+    justify-content: center;
+
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    border: 0,3rem solid black;
+}
+.h1{
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+}
+.h2{
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins';
+}
+.btnlogin{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: green;
+}
+.btnsignup{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: red;
+}
+
